@@ -1,0 +1,1 @@
+			$this->col<%= $objColumn->PropertyName %> = new QDataGridColumn(QApplication::Translate('<%= QConvertNotation::WordsFromCamelCase($objColumn->PropertyName) %>'), '<?= $_ITEM-><%= $objColumn->PropertyName %>; ?>', 'SortByCommand="<%= $objColumn->Name %> ASC"', 'ReverseSortByCommand="<%= $objColumn->Name %> DESC"');

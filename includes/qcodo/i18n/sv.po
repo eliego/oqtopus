@@ -1,0 +1,117 @@
+# Qcodo Distributed Language File
+# for Swedish (default)
+# Contributed by "mickis"
+# Corrected by Kung den Knege <kungdenknege@gmail.com>
+
+
+# For QTextBoxBase controls
+MsgId "%s is required"
+MsgStr "Obligatorisk"
+
+MsgId "Required"
+MsgStr "Obligatorisk"
+
+MsgId "Entry too short (must be at least %s characters long)"
+MsgStr "Värdet är för kort. Ange minst %s tecken"
+
+MsgId "Must be at least %s characters long"
+MsgStr "Ange minst %s tecken"
+
+
+# For QWriteBox controls
+MsgId ""
+"Tags &lt;b&gt; &lt;u&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; and &lt;http://...&gt; are allowed.  "
+"Use ** at the beginning of any line for a bulleted list."
+MsgStr ""
+"Taggar &lt;b&gt; &lt;u&gt; &lt;i&gt; &lt;br&gt; &lt;code&gt; och &lt;http://...&gt; &auml;r till&aring;tna.  "
+"Anv&auml;nd ** i b&ouml;rjan av rader f&ouml;r punktlista."
+
+
+# For QPaginatedControl controls
+MsgId "item"
+MsgStr "annons"
+
+MsgId "items"
+MsgStr "annonser"
+
+
+# For QListBox and QCalendar controls
+MsgId "Reset"
+MsgStr "Nollst&auml;ll"
+
+
+# For QIntegerTextBox and QFloatTextBox controls
+MsgId "Invalid Integer"
+MsgStr "Ogiltigt heltal"
+
+MsgId "Invalid Float"
+MsgStr "Ogiltigt flyttal"
+
+MsgId "Value must be less than %s"
+MsgStr "V&auml;rdet m&aring;ste vara mindre &auml;n %s"
+
+MsgId "Value must be greater than %s"
+MsgStr "V&auml;rdet m&aring;ste vara st&ouml;rre &auml;n %s"
+
+
+# For QDataGrid controls
+MsgId "<b>Results:</b>&nbsp;Viewing&nbsp;%s&nbsp;%s-%s&nbsp;of&nbsp;%s."
+MsgStr "<b>Resultat:</b>&nbsp;Visar&nbsp;objekt&nbsp;%s-%s&nbsp;av&nbsp;%s."
+
+MsgId "<b>Results:</b> No %s found."
+MsgStr "<b>Resultat:</b> Inga matchande objekt"
+
+MsgId "<b>Results:</b> 1 %s found."
+MsgId_Plural "<b>Results:</b> %s %s found."
+MsgStr[0] "<b>Resultat:</b> 1 objekt funnet."
+MsgStr[1] "<b>Resultat:</b> %s objekt funna."
+
+
+# For QPaginator controls
+MsgId "Previous"
+MsgStr "Föregående"
+
+MsgId "Next"
+MsgStr "Nästa"
+
+
+# For the List FormDraft Include template
+MsgId "List All"
+MsgStr "Visa alla"
+
+MsgId "Create a New"
+MsgStr "Skapa en ny"
+
+MsgId "Go to \"Form Drafts\""
+MsgStr "G&aring; til \"formul&auml;rutkast\""
+
+
+# For the Edit FormBase class template
+MsgId "Create"
+MsgStr "Skapa"
+
+MsgId "Edit"
+MsgStr "Redigera"
+
+MsgId "Save"
+MsgStr "Spara"
+
+MsgId "Cancel"
+MsgStr "Avbryt"
+
+MsgId "Delete"
+MsgStr "Radera"
+
+MsgId "Are you SURE you want to DELETE this %s?"
+MsgStr "&Auml;r du s&auml;ker p&aring; att du vill RADERA %s?"
+
+
+# For the form_drafts/index.php page
+MsgId "List of Form Drafts"
+MsgStr "Lista over formul&auml;rutkast"
+
+MsgId "View List"
+MsgStr "Visa lista"
+
+MsgId "Create New"
+MsgStr "Skapa ny"

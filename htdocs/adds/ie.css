@@ -1,0 +1,1668 @@
+/******************************************************************************************************/
+/****************************************                      ****************************************/
+/****************************************   Kapitel 1 - body   ****************************************/
+/****************************************   Kapitel 2 - "main"-div   **********************************/
+/****************************************   Kapitel 3 - foretagsmarke   *******************************/
+/****************************************   Kapitel 4 - meny 1   **************************************/
+/****************************************   Kapitel 5 - top   *****************************************/
+/****************************************   Kapitel 6 - menu1   ***************************************/
+/****************************************   Kapitel 7 - vansterdiv   **********************************/
+/****************************************   Kapitel 8 - MainForm   ************************************/
+/****************************************   Kapitel 9 - hogerdiv   ************************************/
+/****************************************   Kapitel 10 Inloggningspanel   *****************************/
+/****************************************   Kapitel 11 - Sokformar   **********************************/
+/****************************************   Kapitel 12 - Sokrestat   **********************************/
+/****************************************   Kapitel 13 - SellersRegisterForm   ************************/
+/****************************************   Kapitel 14 - Profileform   ********************************/
+/****************************************                              ********************************/
+/******************************************************************************************************/
+
+/****************************************** Kapitel 1 - body ******************************************/
+body {	background-color: rgb(255,255,255);
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		line-height: 16px;
+		color: #000000;
+		margin: 0px 0px 0px 0px;
+		border-top: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom: 0px;	
+		padding-top: 0em; 
+		padding-left: 0em;
+		padding-right: 0em;
+		padding-bottom: 0em;
+		overflow-x: hidden; }
+label {padding-left: 4px;
+		padding-bottom: 3px; }
+ul{ margin-left: 20px;
+	padding-left: 0px; }
+li{ padding-left: 0px;
+	margin-bottom: 6px;	}
+img {	border-width: 0px; }
+a {	text-decoration: none; 
+	color: #000000;
+	cursor: pointer; }
+a:visited { text-decoration: none;
+			cursor: pointer; }
+a:focus	{text-decoration: none; }	
+a:active {	text-decoration: none; }
+a:hover {	text-decoration: none;	}
+div{	font-family:Verdana, Arial, Helvetica, sans-serif;			
+		background-color:#FFFFFF; }
+		
+/* Headers och main */
+h5.marginheader{	background: rgb(255,170,0);
+					padding: 1px 1px 0px 1px;
+					margin-top: 0px;
+					font-size: 10px;
+					border: 1px solid rgb(0,0,0);
+					margin-bottom: 5px; }
+h5.marginheaderblue{	background: rgb(220,220,200);
+						border: 1px solid rgb(0,0,0);
+						padding: 1px 1px 0px 1px;
+						margin-top: 5px;
+						margin-bottom: 5px;
+						margin-left: 0px;
+						margin-right: 0px;
+						font-size: 10px;}
+h5.marginheaderAdPanel{	background: rgb(220,220,200);
+						border: 1px solid rgb(0,0,0);
+						padding: 1px 1px 0px 1px;
+						margin-top: 5px;
+						margin-bottom: 5px;
+						width: 565px;
+						font-size: 10px;}
+h5.marginheaderAdsForm{	background: rgb(220,220,200);
+						border: 1px solid rgb(0,0,0);
+						padding: 1px 1px 0px 1px;
+						margin-top: 5px;
+						margin-bottom: 5px;
+						width: 562px;
+						font-size: 10px;}
+div.absolutemain{ 	position: absolute;
+				left: 180px;
+				top: 0px;	}
+div.main{	position: relative;
+			top: 0px;
+			left: 0px;
+			border-bottom: 1px solid rgb(220,220,200);
+			width: 570px;
+			padding: 0px 0px 7px 0px;
+			margin-bottom: 10px;	}
+/* Headers och main - SLUT */
+/****************************************** Kapitel 1 - slut ******************************************/
+
+/****************************************** Kapitel 2 - "main"-div ************************************/
+/* Boxen som innehaller alla andra boxar och element */
+div#box {	position: absolute; 
+			top: 0px; 
+			left: 0px;	}
+/* Boxen som innehaller alla andra boxar och element - slut */
+/****************************************** Kapitel 2 - slut ******************************************/
+
+/****************************************** Kapitel 3 - foretagsmarke *********************************/
+/* Foretagssymbol */
+div#symbol {	background-image: url(SymbolOqtopus.png);	
+				position: absolute; 
+				top: 0px; 
+				left: 40px;
+				width: 198px;
+				height: 58px;		
+				display: inline;	
+				padding-top: 3px; }
+/* Foretagssymbol - slut */
+/****************************************** Kapitel 3 - slut ******************************************/
+
+/****************************************** Kapitel 4 - meny 1 ****************************************/
+div#meny1 {		position: absolute; 
+				top: 0px; 
+				left: 416px;
+				width: 566px;
+				height: 58px;					
+				display: inline; }	
+#meny1 {		position: absolute;
+				top: 47px;
+				left:	344px;
+				margin: 0px;
+				padding: 0px;
+				width: auto;									
+				list-style-type: none; }
+#meny1 li {	display: inline; }
+#meny1 a {	display: inline; 
+			float: left;
+			text-decoration: none;
+			color: rgb(180,180,162); 
+			font-size: 10px;
+			margin-left: 2px;
+			padding: 0px 2px 0px 2px;
+			font-weight: bold;
+			background: rgb(255,255,255); 	}		
+#meny1 a:hover { color: rgb(0,0,0); }						
+/****************************************** Kapitel 4 - slut ******************************************/
+	
+/****************************************** Kapitel 5 - top *******************************************/
+/* Innehaller meny 2 och meny 3 som anvands for knappnavigering bland annonserna */
+div#top { 		position: absolute; 
+				top: 64px;
+				left: 40px;
+				width: 940px;
+				height: 47px;
+				background: rgb(255,255,255);
+				border-top: 1px solid rgb(220,220,200);
+				padding: 0px 0px 0px 0px; }
+/****************************************** Kapitel 5 - slut ******************************************/
+						
+/****************************************** Kapitel 6 - menu1 *****************************************/
+.menu1 {	position: absolute;
+			top: 5px;
+			left: -2px;		
+			margin: 0px;
+			padding: 0px;
+			float: left;
+			width: auto;
+			list-style-type: square; }	
+.menu1 li {	display: inline; }
+.menu1 a {	display: block;
+				float:left;
+				text-decoration: none;
+				color: rgb(0,0,0); 
+				font-size: 11px;
+				padding: 0px 3px 0px 3px;
+				font-weight: bold;
+				background-image: url(meny2.png);
+				border: 1px solid rgb(220,220,200);
+				margin: 0px 2px 0px 2px; }
+.menu1 a:hover {	background: rgb(200,200,180); }
+		.menu2 {	position: absolute;
+					top: 27px;
+					left: -2px;		
+					margin: 0px;
+					padding: 0px;
+					float: left;
+					width: auto;
+					list-style-type: square; }
+		.menu2 li { 	display: inline; }
+		.menu2 a {	display: block;
+						float:left;
+						text-decoration: none;
+						color: rgb(0,0,0); 
+						font-size: 9px;
+						line-height: 12px;
+						border: 1px solid rgb(220,220,200);
+						padding: 0px 3px 0px 3px;
+						font-weight: bold;
+						background-image: url(undermeny-meny2.png);									
+						margin: 2px 2px; }
+	.menu2 a:hover {	background: rgb(180,180,162) }						
+/****************************************** Kapitel 6 - slut ******************************************/					
+						
+/****************************************** Kapitel 7 - vansterdiv ************************************/			
+div.vanster{	position: absolute; 
+				top: 120px; 
+				left: 40px;
+				width: 760px;
+				height: auto;
+				display: inline; }
+/****************************************** Kapitel 7 - slut ******************************************/
+
+/****************************************** Kapitel 8 - MainForm **************************************/		
+div#framsida{	position: absolute; 
+				background-image: url(framsida.png);
+				top: 0px; 
+				left: 445px;
+				width: 304px;
+				height: 402px;
+				display: inline; }
+h3.marginzero{ margin: 0px 0px 0px 0px }
+div#ruta1{		position: absolute; 
+				background-image: url(ruta1.png);
+				top: 0px;
+				left: 0px;
+				padding-left: 17px;
+				padding-right: 17px;
+				width: 177px;
+				height: 198px;
+				display: inline; }
+div#ruta2{		position: absolute;
+				background-image: url(ruta1.png);
+				top: 0px; 
+				padding-left: 17px;
+				padding-right: 15px;
+				left: 220px;
+				width: 179px;
+				height: 198px;
+				display: inline; }								
+div#ruta3{		position: absolute;
+				background-image: url(ruta1.png);
+				top: 206px;
+				padding-top: 55px;
+				padding-left: 17px;
+				padding-right: 17px;
+				left: 0px;
+				width: 177px;
+				height: 143px;
+				display: inline; }																	
+div#ruta4{		position: absolute; 
+				background-image: url(ruta1.png);
+				padding-top: 55px;
+				padding-left: 17px;
+				padding-right: 17px;
+				top: 206px; 
+				left: 220px;
+				width: 177px;
+				height: 143px;	
+				display: inline; }
+/****************************************** Kapitel 8 - Slut ******************************************/
+
+/****************************************** Kapitel 9 - hogerdiv **************************************/
+div.hoger {		position: absolute; 
+				top: 120px; 
+				left: 805px;
+				width: 173px;	
+				display: inline;
+				margin: 0px 0xp 0xp 0px;
+				padding: 0px 0px 0px 0px;}
+div.absolutehoger{ 	position: absolute;
+				left: 0px;
+				top: 0px;}
+div.absolutenetwork{ 	position: absolute;
+				left: 0px;
+				top: 190px;}
+/****************************************** Kapitel 9 - hogerdiv **************************************/
+
+/****************************************** Kapitel 10 - Inloggningspanel *****************************/
+
+font.hoger{	position:relative;	
+			font-size: 10px; }
+.hoger a:hover{text-decoration: underline;}
+.TioPix{	font-size: 11px;}
+.TioPix a:hover{text-decoration: underline;}
+		/* Formar inloggningspanel */
+			#txtOQUsername{		width:169px;
+								float: left;
+								height: 15px;
+								font-size: 12px;		
+								padding-top: 1px;
+								padding-bottom: 1px;
+								border: 1px solid rgb(220,220,200);
+								background: rgb(255,255,230);  }
+			#txtOQUsername_ctl{		font-size: 10px;
+									width: 135px;	}	
+			#txtOQPassword{		width: 133px;
+								float: right;
+								font-size: 12px;
+								height: 15px;
+								padding-top: 1px;
+								padding-bottom: 1px;
+								margin-right: 40px;
+								border: 1px solid rgb(220,220,200);
+								background: rgb(255,255,230);	}
+			#txtOQPassword_ctl{ font-size: 10px;
+								width: 135px;	}
+			div.PasswordError{ 	position: absolute;	
+								height: 50px;
+								display: inline;	}
+			#btnOQOk{			position: absolute;
+								top: 108px;
+								left: 137px;
+								width: 34px;				
+								margin: 0px 0px 0px 0px;
+								border: 1px solid rgb(220,220,200);
+								padding-top: 0em;
+								padding-left: 0em;
+								padding-right: 0em;
+								padding-bottom: 0em;
+								font-weight: bold;
+								height: 19px;
+								font-size: 11px; }	
+#btnOQRegisterAsSeller{			position: relative;
+								top: 0px;
+								left: 0px;
+								width: 85px;				
+								margin: 0px 3px 0px 0px;
+								border: 1px solid rgb(220,220,200);
+								padding-top: 0em;
+								padding-left: 0em;
+								padding-right: 0em;
+								padding-bottom: 0em;
+								font-weight: bold;
+								height: 16px;
+								font-size: 10px;
+								display: inline;}					
+#btnOQRegisterAsBuyer{			position: relative;
+								top: 0px;
+								left: 0px;
+								width: 85px;
+								margin: 0px 0px 0px 0px;
+								border: 1px solid rgb(220,220,200);
+								padding-top: 0em;
+								padding-left: 0em;
+								padding-right: 0em;
+								padding-bottom: 0em;
+								height: 16px;
+								font-weight: bold;
+								font-size: 10px; }
+#btnOQLogOut{	position: absolute;
+				right: 0%;	
+				background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				margin:0px 0px 0px 0px;
+				height: 19px;
+				border: 1px solid rgb(220,220,200);
+				font-weight: bold; }
+		/* Formar inloggningspanel - Slut */
+/****************************************** Kapitel 10 - slut *****************************************/
+
+/****************************************** Kapitel 11 - Sokformar **********************************/				
+/* Disclaimer */
+div.vanstertext {	position: absolute; 
+					left: 0px;
+					top: 0px;
+					width: 160px;
+					margin-left: 2px;
+					background: rgb(255,255,255);
+					padding: 0px 0px 5px 0px;
+					display: inline; }
+
+/* Disclaimer - slut */
+/* Panel och statusknapp */												
+#pnlSearch{		position: relative;
+				left: 0px;
+				border-bottom:1px solid rgb(220,220,200);
+				width: 570px;
+				height: 460px;
+				font-weight: normal;
+				padding: 0px 0px 20px 0px; }
+div.absolutesearch{position: absolute;
+					top: 0px;
+					width: 570px;
+					left: 0px;}
+.btnState{		position: absolute;
+				left: 400px;
+				top: 50px;
+				background: rgb(255,255,255);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				border: 0px;
+				margin:0px 0px 0px 0px;
+				height: 19px;
+				z-index:2;
+				font-size: 10px; }
+/* Panel och statusknapp - slut */												
+/* Nyckelords sokning */
+#txtKeyword{	width: 250px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	}
+
+#txtKeyword_ctl{	position: absolute;
+					top: 50px;
+					left: 60px;
+					height: 35px;
+					font-size: 10px; }			
+/* Nyckelords sokning - slut */	
+/* Searchform rubrik 1 */									
+#lblMediaHeader{	position: absolute;
+					top: 120px;
+					left: 60px;
+					width: 255px;
+					background: rgb(220,220,200);
+					font-weight: bold;
+					font-size: 10px;
+					padding-left: 195px; }
+/* Searchform rubrik 1 - slut */								
+/* Region */	
+#rlbArea{		width: 105px;
+				height: 17px;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }				
+#rlbArea_ctl{	position: absolute; 
+				top:145px;
+				left: 60px;
+				font-size: 10px;}
+#rlbSubArea{	width: 110px;
+				height: 17px;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#rlbSubArea_ctl{position: absolute; 
+				top:145px;
+				left: 230px;
+				font-size: 10px; }
+
+#rlbSubSubArea{		width: 105px;
+					height: 17px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+					
+#rlbSubSubArea_ctl {position: absolute; 
+					top:145px;
+					left: 405px;
+					font-size: 10px;}
+/* Region slut*/
+
+/* Medietyp */									
+#lbMediaType{		height: 17px;
+					width: 105px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+																								
+#lbMediaType_ctl{	position: absolute;
+					top: 190px;
+					left: 60px;
+					height: 35px;
+					font-size: 10px; }
+/* Medietyp - slut */										
+
+/* Medietyp - Underkategori */														
+#lbMediaSubType{	height: 17px;
+					width: 110px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+					
+#lbMediaSubType_ctl{	position: absolute;
+						top: 190px;
+						left: 230px;
+						height: 35px;
+						font-size: 10px; }
+/* Medietyp - Underkategori - slut */																					
+									
+/* Rackvidd och Label */										
+#txtReach{	height: 13px;
+			font-size: 10px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);
+			width: 103px; }
+
+#txtReach_ctl{	position: absolute;
+				top: 233px;
+				left: 60px;
+				height: 20px;
+				font-size: 10px; }
+
+#lbReachMode{	height: 17px;
+				width: 105px;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	}
+																			
+#lbReachMode_ctl{	position: absolute;
+					top: 270px;
+					left: 60px;
+					font-size: 10px; }
+/* Rackvidd och Label - slut */										
+
+/* Pris och Label */										
+#txtPrice{	height: 14px;
+			width: 108px;
+			height: 13px;
+			font-size: 10px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+
+#txtPrice_ctl{	position: absolute;
+				top: 233px;
+				left: 230px;
+				font-size: 10px;	}
+																								
+#lbPriceMode{		width: 110px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+									
+#lbPriceMode_ctl{	position: absolute;
+					top: 270px;
+					left: 230px;
+					font-size: 10px; }
+/* Pris och Label - slut */										
+									
+/* Searchform rubrik 2 */
+#lblConsumerHeader {position: absolute;
+					top: 310px;
+					left: 60px;
+					width: 265px;
+					background: rgb(220,220,200);
+					font-weight: bold;
+					font-size: 10px;
+					padding-left: 185px; }
+/* Searchform rubrik 2 - slut */
+
+/* Malgruppes alder */
+#txtAge{	height: 13px;
+			font-size: 10px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);
+			width: 101px;	}
+																			
+#txtAge_ctl{position: absolute;
+			top: 340px;
+			left: 60px;
+			font-size: 10px; }												
+/* Malgrupps alder - slut */															
+																			
+/* Sex-label */										
+#lbSex{				height: 17px;
+					width: 109px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+																			
+#lbSex_ctl{			position: absolute;
+					top: 340px;
+					left: 230px;
+					font-size: 10px; }
+/* Kopkraft och Label - slut */															
+																									
+/* Malgruppens yrkeskategori */										
+#lbSector{			height: 17px;
+					width: 105px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+																			
+#lbSector_ctl{		position: absolute;
+					top: 390px;
+					left: 60px;
+					font-size: 10px; }
+/* Malgruppens yrkeskategori - slut */						
+									
+/* Malgruppens ubildningsniva */										
+#lbEducation{		height: 17px;
+					width: 110px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230); }
+																
+#lbEducation_ctl{	position: absolute;
+					top: 390px;
+					left: 230px;
+					font-size: 10px; }
+/* Malgruppens ubildningsniva - slut */										
+
+/* Malgruppens genomsnittslon */										
+#lbSalary{	height: 17px;
+			width: 105px;
+			font-size: 10px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+
+#lbSalary_ctl{	position: absolute;
+				top: 339px;
+				left: 405px;
+				font-size: 10px; }
+/* Malgruppens genomsnittslon - slut */										
+																			
+/* Ovriga - Sendmail, fntCheckbox och btnOk */										
+#cblSendEmail_ctl{	position: absolute;
+					top: 80px;
+					left: 60px;
+					height: 15px;
+					font-size: 10px; }
+																			
+#btnOk{	position: absolute;
+		top: 49px;
+		left: 315px; } 
+/*.btnSearch_Simple{ 		position: absolute;		
+						top: 50px;
+						left: 300px;	}
+.btnSearch_Advanced{ 	position: absolute;	
+						top: 400px;
+						left: 300px;	}	*/		
+/****************************************** Kapitel 11 - slut *****************************************/
+
+/****************************************** Kapitel 12 - Sokrestat **********************************/																								
+/* Restatbox */
+.objResultBox{	position: relative;
+				overflow:hidden; 
+				left: 0px;
+				width: 570px;
+				border-bottom:1px dashed rgb(220,220,200);
+				padding: 0px 0px 5px 0px;
+				margin-top: 10px; }	
+.dtgData{ 	position: relative;
+			padding-top: 25px; }
+.SearchComposite_lblName{	z-index:2;
+							position: relative;
+							font-weight: bold;
+							font-size: 10px;
+							width: 100px;
+							background: rgb(255,170,0); }					
+.SearchComposite_txtName{	z-index:2;
+							position: relative;
+							font-size: 10px;
+							padding: 0px;
+							margin: 0px;
+							border: 0px;
+							background: rgb(255,170,0); }						
+.SpecialError { position:relative; top:17px; color: red; }
+.Error { color: red; }
+/* Restatbox - slut */
+
+/* Knappar */
+.SearchComposite_btnClose {	background: rgb(255,170,0);
+							padding-top: 0em;
+							padding-left: 0em;
+							padding-right: 0em;
+							padding-bottom: 0em;
+							margin:0px 0px 0px 0px;
+							font-weight: bold;
+							font-size: 10px;
+							border: 1px solid rgb(255,170,0);}
+.SearchComposite_btnState {	background: rgb(255,170,0);
+							padding-top: 0em;		
+							padding-left: 0em;
+							padding-right: 0em;		
+							padding-bottom: 0em;
+							margin:0px 0px 0px 0px;
+							border: 1px solid rgb(255,170,0);
+							font-weight: bold;
+							font-size: 10px; }
+/* Knappar - slut */
+/****************************************** Kapitel 12 - slut *****************************************/	
+
+/****************************************** Kapitel 13 - SellersRegisterForm **************************/
+#txtCompanyName{width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	}
+#txtCompanyName_ctl{ font-size: 10px;
+					font-weight: normal; }
+#txtOrgNumber{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtOrgNumber_ctl{	font-size: 10px; }
+#txtDesc{		font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	}
+#chkMailOn{	border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);}
+#txtFirstName{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtFirstName_ctl{	font-size: 10px; }
+#txtSecondName{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtSecondName_ctl{	font-size: 10px; }
+#txtAddress{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	}
+#txtAddress_ctl{	font-size: 10px; }
+#txtPostal{	width: 120px;
+			height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+#txtPostal_ctl{	font-size: 10px; }
+#txtCity{	width: 120px;
+			height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+#txtCity_ctl{	font-size: 10px; }
+#txtPhone{	width: 120px;
+			height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+#txtPhone_ctl{	font-size: 10px; }
+#txtEmail{	width: 120px;
+			height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+#txtEmail_ctl{	font-size: 10px; }
+#txtUsername{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtUsername_ctl{	font-size: 10px; }
+#txtPassword{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtPassword_ctl{	font-size: 10px; }
+#txtPassword2{	width: 120px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtPassword2_ctl{	font-size: 10px; }
+#btnRegister{	position: relative;
+				left: 338px;
+				top: -21px;		
+				width: auto;			
+				background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				margin:0px 0px 0px 0px;
+				font-weight: bold;
+				height: 16px;
+				font-size:10px;
+				border: 1px solid rgb(220,220,200);	}
+/****************************************** Kapitel 13 - SellersRegisterForm - SLUT *****************************************/
+
+
+
+/****************************************** Kapitel 14 - Profileform **********************************/
+.lblBidInfo { color: red; }
+
+/* Foretagsinfo */
+
+#lblSellerName{	width: auto;
+				font-size: 30px;
+				font-weight:bold;	 }
+
+#lblSellerName_ctl{	display: inline; }
+
+
+#lblSellerNumber_ctl{	font-size: 10px;
+						display: inline; }
+
+#lblSellerContactAdress_ctl{	height: 30px;
+								font-size: 10px;
+								display: inline; }
+
+#lblSellerContactName_ctl{ 	font-size: 10px;
+							display: inline;	}
+
+#lblSellerContactPhone_ctl{	height: 30px;
+							font-size: 10px;
+							display: inline;	}
+
+#lblSellerContactEmail_ctl{ height: 30px;
+							font-size: 10px;
+							display: inline; }
+
+#pnlSellerDesc { height:60px; 
+				 overflow: hidden; }
+				 
+#pnlSellerDesc_ctl{ height: 30px;
+					font-size: 10px;
+					display: inline; }
+
+/* SellerSettingsForm - Knappar*/
+div.EditSellerInfo{ z-index: 5; position: relative; top: 0px; left: 445px; margin: 0px; display:inline; }
+#btnCancelEditSellerInfo{	background-image: url(meny2.png);
+							padding-top: 0px;
+							padding-left: 0em;
+							padding-right: 0em;
+							padding-bottom: 0px;
+							margin:0px 0px 0px 0px;
+							font-weight: bold;
+							height: 16px;
+							font-size: 10px; }
+#btnDoEditSellerInfo{	background-image: url(meny2.png);
+						padding-top: 0px;
+						padding-left: 0em;
+						padding-right: 0em;
+						padding-bottom: 0px;
+						margin: 0px 0px 0px 0px;
+						font-weight: bold;
+						height: 16px;
+						font-size: 10px; }
+div.ChangePass{ z-index: 5; position: relative; top: 0px; left: 433px; margin: 0px; display:inline; }
+.btnDoChangePass{ 	background-image: url(meny2.png);
+					padding-top: 0px;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 1px;
+					margin: 0px 0px 0px 0px;
+					font-weight: bold;
+					height: 16px;
+					border: 1px solid rgb(220,220,200);
+					font-size: 10px; }
+/* SellerSettingsForm - Knappar SLUT */
+						
+/* Foretagsinfo - slut */
+
+/* Foretagsinfo - former */
+#pnlSellerInfo{	height: auto;
+				width: auto;
+				margin-top:10px;	}
+
+#pnlSellerInfo_ctl{	left: 0px; }
+
+#pnlSellerInfoEdit{	height: 115px;
+					width: 380px;}
+
+#pnlSellerInfoEdit_ctl{	position: absolute;
+						top: 70px;
+						left: 0px; }
+/* Foretagsinfo - former - slut */			
+
+/* Andra foretagsinfo */			
+#txtSellerContactName{	height: 16px;
+						font-size: 13px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230);	 }
+#txtSellerContactName_ctl{	height: 20px; }
+#txtSellerContactAdress{	height: 16px;
+							font-size: 13px;
+							padding-top: 2px;
+							padding-bottom: 2px;
+							border: 1px solid rgb(220,220,200);
+							background: rgb(255,255,230); }
+#txtSellerContactAdress_ctl{	height: 20px;}
+#txtSellerContactPhone{	height: 16px;
+						font-size: 13px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230); }
+#txtSellerContactPhone_ctl{	height: 20px;}
+#txtSellerContactEmail{	height: 16px;
+						font-size: 13px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230); }
+#txtSellerContactEmail_ctl{	height: 20px; }
+#txtSellerContactPostal{	height: 16px;
+							font-size: 13px;
+							padding-top: 2px;
+							padding-bottom: 2px;
+							border: 1px solid rgb(220,220,200);
+							background: rgb(255,255,230); }		
+#txtSellerContactCity{ 	height: 16px;
+						font-size: 13px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230); }
+#txtOldPass{ height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+#txtNewPass{ height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+#txtNewPass2{ height: 16px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230); }
+/* Andra foretagsinfo - slut */		
+
+/* Ga med i kampanjnätverk - Kunder */
+#btnApplyForNetwork{position: relative;
+					top: 0px;
+					background-image: url(meny2.png);
+					padding-top: 0em;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 0em;
+					margin: 0px 0px 0px 3px;
+					border: 1px solid rgb(220,220,200);
+					height: 19px;
+					font-weight: bold;
+					font-size: 10px; }
+#lbNetworks{	font-size: 10px;
+				position:  relative;
+				width: 105px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,200)}
+#lbNetworks_ctl{font-size: 10px;	}
+#pnlNetworkDescription{	position: relative; 
+						top: 20px;
+						overflow: hidden;
+						height: auto;
+						width: 160px;	}
+#pnlNetworkDescription_ctl{	font-size: 10px;
+							font-weight: normal;}
+#lblNetworkInfo { 	position: relative;
+					height: auto;
+				  	width: 160px;
+					color: red; }
+#txtNetworkName{	height: 16px;
+					font-size: 13px;
+					padding-top: 2px;
+					padding-bottom: 2px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230);	}
+#txtNetworkDescription{	font-size: 13px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230);}
+/* Ga med i kampanjnï¿½tverk - Kunder - slut */
+
+/* Sistaminutenannonser */
+.Restat{ padding-top: 10px;}
+#btnAddSim{ background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin:0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			font-weight: bold;
+			height: 16px;
+			font-size: 10px;
+			display: inline; }				
+/* Sistaminutenannonser - slut */
+
+/* Vanliga annonser */
+#dtgAds{		position: relative;
+				top: 10px;
+				left: 0px; }
+#objEditAd{ padding-bottom: 20px;}			
+#btnAddAd{ 	background-image: url(meny2.png);
+			padding-top: 0px;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 1px;
+			margin:0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			font-weight: bold;
+			height: 16px;
+			font-size: 10px; }
+/* Vanliga annonser - slut */
+
+/* pnlAd */
+font.profile5{	position: relative;
+				top: 0px;
+				left: 0px;
+				padding-left: 2px;			
+				padding-right: 591px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				background: rgb(220,220,200);
+				font-weight: bold;
+				font-size: 10px; }
+#objSimPnl{	position: relative;
+			top: 10px;
+			left: 0px;
+			margin: 0px 0px 80px 0px; 
+			padding: 0px 0px 0px 0px; 
+			height: 340px; }
+#objEditSim{	padding-bottom: 20px;	}
+
+td.tdPanelAd1{	position: relative;
+				vertical-align: top;
+				margin: 0px 0px 0px 0px;
+				border: 0px;
+				padding-bottom: 0px;
+				width: 140px;
+				height: 50px; }
+				
+td.tdPanelAd3{	position: relative;	
+				vertical-align: top;
+				margin: 0px 0px 0px 0px;
+				border: 0px;
+				padding-bottom: 20px;
+				width: 100px;  }
+				
+td.tdPanelAd4{	position: relative;	
+				vertical-align: top;
+				margin: 0px 0px 0px 0px;
+				border: 0px solid;
+				padding-bottom: 10px;
+				width: 200px;}
+
+td.tdPanelAd5{	position: relative;	
+				vertical-align: top;
+				margin: 0px 0px 0px 0px;
+				border: 0px;
+				padding-bottom: 10px;
+				width: 180px; }
+
+td.tdAuto{	position: relative;
+				vertical-align: top;
+				margin: 0px 0px 0px 0px;
+				border: 0px;
+				padding-bottom: 30px;
+				width: auto;
+				height: auto; }
+
+td.tdWidth{	width: 20px;}
+
+.BitmaskComposite_AttributeList {	padding-left: 20px; }
+
+/* pnlAd - slut */
+
+/* Valj lagg till eller andra annonser */
+.btnRemove{	background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin:0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			font-weight: bold;
+			font-size: 10px	}
+.btnRemoveFromNetwork{	background-image: url(meny2.png);
+						padding-top: 0em;
+						padding-left: 0em;
+						padding-right: 0em;
+						padding-bottom: 0em;
+						margin:0px 0px 0px 0px;
+						border: 1px solid rgb(220,220,200);
+						font-weight: bold;
+						width: 20px;
+						font-size: 10px	}
+.btnSelect{	position: relative;
+			background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin:0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			font-weight: bold;
+			font-size: 10px;	}			
+.button {	background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin:0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			font-weight: bold;
+			font-size: 10px;	}
+/* Valj lagg till eller andra annonser - slut */
+
+/* Datagrids */
+.BidsDataGrid_HeaderRow{	font-size: 10px;
+							font-weight: bold;	}
+.BidsDataGrid_HeaderLink{	font-size: 10px;
+							font-weight: bold; }
+.BidsDataGrid_Row{	font-size: 11px;	
+					background: rgb(240,240,240);
+					font-weight: normal;	}
+.BidsDataGrid_AlternateRow{	font-size: 11px;	
+							background: rgb(255,255,200);
+							font-weight: normal;	}
+.SellersDataGrid_Row{	font-size: 10px;
+						background: rgb(240,240,240);	
+						font-weight: normal;	}
+.SellersDataGrid_AlternateRow{	font-size: 10px;	
+								background: rgb(255,255,255);
+								font-weight: normal;	}
+/* Datagrids SLUT*/
+				
+/* Andra/Skapa annonser */
+.txtAdName{		width: 200px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	 }
+.txtAdDesc{ height: 100px;
+			width: 200px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);}
+.rblPermissions{border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);}
+.rlbAdArea{	width: 120px;
+			font-size: 10px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);		}
+.rlbAdSubArea{	position: absolute;
+				width: 120px;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	 }
+.rlbAdSubSubArea{	position: absolute;
+					width: 120px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230);	 }
+.lbAdType{	width: 120px;
+			font-size: 10px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);	 }
+.lbAdSubType{	width: 120px;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	 }
+.txtAdReach{	width: 150px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	 }
+.txtAdPrice{ width: 150px;
+				height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+.dtpAdPublication{	border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230);}							
+.dtpAdDeadline{	border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);}
+.txtAdAgeFrom{	height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	
+				width: 40px;
+				display: inline; }
+.txtAdAgeTo{	height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	
+				width: 40px;
+				display: inline; }
+.rblAdSex{	font-size: 10px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);	 }
+.MultipleBox{	border: 1px dashed rgb(255,170,0);
+				width: 125px;
+				font-size: 10px;
+				background: rgb(255,255,230);	}
+.MultipleButton{background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 1px;
+				margin:0px 0px 0px 0px;
+				border: 1px solid rgb(220,220,200);
+				font-weight: bold;
+				width: 125px;
+				height: 16px;
+				font-size: 10px; }
+.KeywordButton{	background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				margin: 0px 0px 0px 1px;
+				border: 1px solid rgb(220,220,200);
+				font-weight: bold;
+				font-size: 10px;
+				height:19px;
+				width: 100px; }
+.txtWord{	border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);
+			width: 124px;
+			padding-bottom: 1px;}
+.btnDel{	position: relative;
+			top: -39px;
+			left: 1px;
+			width: 100px;
+			background-image: url(meny2.png);
+			padding-top: 0px;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin: 0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			font-weight: bold;
+			font-size: 10px;
+			height:	19px; } 
+.btnDoAdEdit{ 	background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 1px;
+				margin:0px 0px 0px 0px;
+				height: 16px;
+				border: 1px solid rgb(220,220,200);
+				font-weight: bold;
+				font-size: 10px; }
+.btnCancelAdEdit{	background-image: url(meny2.png);
+					padding-top: 0em;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 1px;;
+					margin:0px 0px 0px 0px;
+					border: 1px solid rgb(220,220,200);
+					height: 16px;
+					font-weight: bold;
+					font-size: 10px;	}
+
+
+select{ font-size: 11px;} 
+
+
+
+				
+
+/* Button SellersBidsform "Yes" or "No" */
+.btnSellersBidsForm{	width: 42px;	
+						background-image: url(meny2.png);
+						padding-top: 0em;
+						padding-left: 0em;
+						padding-right: 0em;
+						padding-bottom: 0em;
+						margin:0px 0px 0px 0px;
+						border: 1px solid rgb(220,220,200);
+						font-weight: bold;
+						font-size: 10px;	}
+/* Button SellersBidsform "Yes" or "No" */
+
+#txtAdPrice{	height: 15px;
+				width: 120px; }
+
+th { text-align:left;
+	padding-right: 20px;}
+
+
+/* Andra/Skapa annonser */
+
+/****************************************** Kapitel 15 - SellersBidsForm ******************************/
+
+
+input {margin: 0px; padding: 0px;}
+
+td {	margin: 0px;
+		padding-left: 1px; 
+		padding-right: 1px; 
+		padding-bottom: 0px; 
+		padding-top: 0px;	}
+
+
+
+
+.ExpiredAd { font-style: italic; }
+
+/* Mejlformuläret i bidsform */
+#txtSubject{	width: 400px;
+				margin: 0px;
+				height: 16px;
+				font-size: 11px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230); }
+#txtSubject_ctl{	font-size: 10px;
+					display: inline;	}
+#txtBody{	width: 400px;
+			height: 70px;
+			margin:0px;
+			font-size: 13px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,230);	}
+#txtBody_ctl{	font-size: 10px;
+				display: inline	}
+#btnSend{	position: relative;
+			top: -15px;
+			left: 11px;
+			height: 16px;
+			font-size: 10px;}
+#btnClose{	position: relative;
+			top: -95px;
+			left: 340px;
+			height: 16px;
+			font-size: 10px; }
+#btnMarkAsContacted{	position: relative;
+						left: 157px;
+						width:130px;
+						padding-top: 0em;
+						padding-left: 0em;
+						padding-right: 0em;
+						padding-bottom: 1px;
+						margin:0px 0px 0px 0px;
+						font-weight: bold;
+						font-size: 10px;
+						height: 16px;
+						border: 1px solid rgb(220,220,200);	}
+#lblPhone{	margin-left: 0px;	}
+#lblPhone_ctl{	position: relative; 
+				font-size: 10px;
+				display: inline; }
+/* Mejlformuläret i bidsform SLUT */
+
+
+.lblName{	position: relative;	
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,200);
+			padding: 3px;
+			font-size: 20px;
+			display: inline;	}
+
+.dtgAssociations { width: 400px;}
+/* SellerNetworksForm */
+div.btnAdd{ z-index: 5; position: relative; top: 0px; left: 484px; margin-right: 0px; display:inline; }
+div.CloseNonEditNetworkPanelBtn { z-index: 5; position: relative; top: 0px; left: 439px; margin-right: 0px; display:inline; }
+div.CloseEditNetworkPanelBtn { z-index: 5; position: relative; top: 0px; left: 489px; margin: 0px; display:inline; }								
+#btnAdd{ 	background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin:0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			height: 16px;
+			font-weight: bold;
+			font-size: 10px; }
+.btnNetworkOk{ 	background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 1px;
+				margin:0px 0px 0px 0px;
+				font-weight: bold;
+				height: 16px;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200); }
+.btnNetworkCancel{ 	background-image: url(meny2.png);
+					padding-top: 0em;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 1px;
+					margin:0px 0px 0px 0px;
+					font-size: 10px;
+					height: 16px;
+					font-weight: bold;
+					border: 1px solid rgb(220,220,200);	}
+.btnAccept{ 	width: 42px;
+				background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				margin:0px 0px 0px 0px;
+				font-weight: bold;
+				font-size: 10px;
+				border: 1px solid rgb(220,220,200);	}
+.btnDeny{	width: 42px;	
+			background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			margin:0px 0px 0px 0px;
+			font-weight: bold;
+			font-size: 10px;
+			border: 1px solid rgb(220,220,200);	}
+.btnEditNetwork{	background-image: url(meny2.png);
+					padding-top: 0em;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 1px;
+					margin: 0px 0px 0px 0px;
+					font-weight: bold;
+					font-size: 10px;
+					height: 16px;
+					border: 1px solid rgb(220,220,200);	}
+.btnNetworkClose{ 	background-image: url(meny2.png);
+					padding-top: 0em;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 1px;
+					margin:0px 0px 0px 0px;
+					font-weight: bold;
+					font-size: 10px;
+					height: 16px;
+					border: 1px solid rgb(220,220,200);	}
+.txtDescription{ background: rgb(255,255,230); }
+.lblDescription{ background: rgb(255,255,200); }
+/* SellerNetworksForm SLUT */
+
+/* Prenumera på nyhetsbrevet */
+#btnDoSubscribe{ 	background-image: url(meny2.png);
+					padding-top: 0em;
+					padding-left: 0em;
+					padding-right: 0em;
+					padding-bottom: 0em;
+					margin:0px 0px 0px 1px;
+					font-weight: bold;
+					height: 18px;
+					font-size: 10px;
+					border: 1px solid rgb(220,220,200);	}
+#txtSubscriptionEmail{ 	width: 150px;	
+						height: 15px;
+						font-size: 12px;
+						padding-top: 1px;
+						padding-bottom: 1px;
+						border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230); }
+
+.limited { width:100%; }
+/* Prenumera på nyhetsbrevet */
+/**********************************************************************************************/
+/**********************************************************************************************/
+/**********************************************************************************************/
+/**********************************************************************************************/
+/**********************************************************************************************/
+/**********************************************************************************************/
+img.demo { border-width: 1px; border-color: rgb(220,220,200); border-style:solid; }
+
+a:hover.hover { text-decoration: underline; }
+
+#dtgData { width:400px; }
+
+				
+/* AdsForm */
+div.desc{	position: relative;
+			top: -8px;	
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,200);
+			font-size: 10px;
+			padding: 3px;
+			width: 300px;
+			font-weight: bold; }
+.pnlAdDesc{ background: rgb(255,255,200);	}
+.lblAdName{ position: relative;
+			border: 1px solid rgb(220,220,200);
+			background: rgb(255,255,200);
+			padding: 3px;
+			font-size: 18px;
+			display: inline;	}
+.btnAdClose{	background-image: url(meny2.png);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 1px;
+				margin:0px 0px 0px 0px;
+				border-left: 1px solid rgb(220,220,200);
+				border-top: 1px solid rgb(220,220,200);
+				border-bottom: 1px solid rgb(220,220,200);
+				border-right: 1px solid rgb(220,220,200);
+				font-weight: bold;
+				height: 16px;
+				font-size: 10px;
+				width: 60px; }
+.btnEditAd{	background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 1px;
+			margin:0px 0px 0px 0px;
+			font-weight: bold;
+			font-size: 10px;
+			height: 16px;
+			border: 1px solid rgb(220,220,200);
+			width: 60px; }
+.btnMakeSim{background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 1px;
+			margin:0px 0px 0px 0px;
+			font-weight: bold;
+			font-size: 10px;
+			height: 16px;
+			border: 1px solid rgb(220,220,200);
+			width: 120px; }
+.btnRemoveAds{background-image: url(meny2.png);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 1px;
+			margin:0px 0px 0px 0px;
+			font-weight: bold;
+			font-size: 10px;
+			height: 16px;
+			border: 1px solid rgb(220,220,200);
+			width: 50px; }				
+/* AdsForm - SLUT */
+
+.hoverlink:hover{ text-decoration: underline;	}
+.Buttons { z-index: 5; position: absolute; top: 1px; margin-right: 1px; right:6px; display:inline; }
+div.CloseAdPanelBtn { z-index: 5; position: relative; top: 0px; left: 470px; margin-right: 0px; display:inline; }
+div.btnAddSim{ z-index: 5; position: relative; top: 0px; left: 496px; margin: 0px; display:inline; }
+div.btnAddAd{ z-index: 5; position: relative; top: 0px; left: 464px; margin: 0px; display:inline; }
+div.EditAdPanel{ z-index: 5; position: relative; top: 0px; left: 483px; margin: 0px; display:inline; }
+div.btnNonEditAdPanel{ z-index: 5; position: relative; top: 0px; left: 398px; margin: 0px; display:inline; }
+/**********************************************************************************************/
+/*************************************  Sias ändringar ****************************************/
+/**********************************************************************************************/
+
+.btnBuyersRemoveNetwork{	background-image: url(meny2.png);
+							width: 20px;
+							padding-top: 0em;
+							padding-left: 0em;
+							padding-right: 0em;
+							padding-bottom: 1px;
+							margin:0px 0px 0px 0px;
+							font-weight: bold;
+							font-size: 12px;
+							border: 1px solid rgb(220,220,200); }
+							
+							
+/* Makebid, lägg bud */
+.txtBidAmount{	height: 16px;
+				font-size: 13px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid rgb(220,220,200);
+				background: rgb(255,255,230);	}
+.dtpBidDeadline{	border: 1px solid rgb(220,220,200);
+					background: rgb(255,255,230);	}
+.dtpBidPublicationDate{	border: 1px solid rgb(220,220,200);
+						background: rgb(255,255,230);	}
+.btnBidOk{	background-image: url(meny2.png);				
+			margin: 0px 0px 0px 0px;
+			border: 1px solid rgb(220,220,200);
+			padding-top: 0em;
+			padding-left: 0em;
+			padding-right: 0em;
+			padding-bottom: 0em;
+			height: 16px;
+			font-weight: bold;
+			font-size: 10px;	}
+.btnBidCancel{	background-image: url(meny2.png);				
+				margin: 0px 0px 0px 0px;
+				border: 1px solid rgb(220,220,200);
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				height: 16px;
+				font-weight: bold;
+				font-size: 10px;	}
+.pnlMakeBid{	position: absolute;
+				left: 70px;
+				top: 0px;
+				padding: 5px;	
+				border: 2px solid rgb(255,255,0); 
+				background: rgb(255,255,255);
+				z-index: 7;	}
+.btnMakeBid{	background-image: url(meny2.png);
+				width: 40px;
+				padding-top: 0em;
+				padding-left: 0em;
+				padding-right: 0em;
+				padding-bottom: 0em;
+				margin:0px 0px 0px 0px;
+				font-weight: bold;
+				font-size: 10px;
+				height: 16px;
+				border: 1px solid rgb(220,220,200);
+				display:inline; }
+div.PanelMakeBid{ position: relative; top: 0px; left: 150px; margin: 0px; display:inline; }
+/* Makebid, lägg bud - SLUT */
+
+/* Buyersbidsform */
+.middle{ 	position: relative; 
+			left: 0px;	}
+			
+			
+ul.demoform{	margin-left: 0px;
+				padding-left: 0px;
+				list-style-type: none;
+				color: rgb(180,180,162); }
+.demoform li { 	padding-left: 2px;
+				padding-bottom: 10px; }
+.demoform a{	text-decoration: none;
+				color: rgb(140,140,126); 
+				font-size: 11px;
+				height: 20px;
+				margin-left: 2px;
+				padding: 0px 0px 0px 0px;
+				font-weight: bold;
+				background: rgb(255,255,255); 	}
+.demoform a:hover{	color: rgb(0,0,0);	}
+
+.imgdemo{ 	float: right;	}				

@@ -1,0 +1,78 @@
+# Oqtopus Language File
+# Author: Kung den Knege <kungdenknege@gmail.com>
+
+# Login
+MsgId "No such user"
+MsgStr "Fel användarnamn"
+
+MsgId "Wrong Password"
+MsgStr "Fel lösenord"
+
+
+# Oqtopus controller
+MsgId "Oqtopus knows no form named"
+MsgStr "Oqtopus har ingen sida med namnet"
+
+# LoginForm
+MsgId "Username"
+MsgStr "Användarnamn"
+
+MsgId "Password"
+MsgStr "Lösenord"
+
+MsgId "Login"
+MsgStr "Logga in"
+
+
+# RegisterForm
+MsgId "Role"
+MsgStr "Roll"
+
+MsgId "Seller"
+MsgStr "Annonssäljare"
+
+MsgId "Buyer"
+MsgStr "Annonsköpare"
+
+MsgId "Name of contact person"
+MsgStr "Kontaktpersonens namn"
+
+MsgId "Address of contact person"
+MsgStr "Kontaktpersonens adress"
+
+MsgId "Postal of contact person"
+MsgStr "Kontaktpersonens postnummer"
+
+MsgId "City of contact person"
+MsgStr "Kontaktpersonens postort"
+
+MsgId "Phone number to contact person"
+MsgStr "Kontaktpersonens telefonnummer"
+
+MsgId "Email to contact person"
+MsgStr "Kontaktpersonens e-mail"
+
+MsgId "Organization number"
+MsgStr "Organisationsnummer"
+
+MsgId "Company name"
+MsgStr "Företagsnamn"
+
+MsgId "Repeat password"
+MsgStr "Upprepa lösenordet"
+
+MsgId "The passwords doesn't seem to match"
+MsgStr "Lösenorden överensstämmer inte"
+
+MsgId "Sign up!"
+MsgStr "Registrera!"
+
+
+# EmailTextBox
+MsgId "Invalid e-mail address"
+MsgStr "Ogiltig e-mail"
+
+
+# OrganizationNumberTextBox
+MsgId "Invalid organization number"
+MsgStr "Ogiltigt organisationsnummer"

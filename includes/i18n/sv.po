@@ -1,0 +1,729 @@
+# Oqtopus Language File
+# Author: Kung den Knege <kungdenknege@gmail.com>
+# Sias computer sucks: Å ÄÖ   (åäö)
+
+# Security
+MsgId "No such user"
+MsgStr "Fel användarnamn"
+
+MsgId "Wrong password"
+MsgStr "Fel lösenord"
+
+MsgId "Your account is inactive"
+MsgStr "Kontot är inaktivt"
+
+
+# Oqtopus controller
+MsgId "Oqtopus knows no form named"
+MsgStr "Oqtopus har ingen sida med namnet"
+
+
+# OqtopusForm
+MsgId "Username"
+MsgStr "Användarnamn"
+
+MsgId "Conclusion"
+MsgStr "NYHETER"
+
+MsgId "Password"
+MsgStr "Lösenord"
+
+MsgId "Login"
+MsgStr "OK"
+
+MsgId "Logout"
+MsgStr "Logga ut"
+
+MsgId "Please log in first!"
+MsgStr "Var vänlig logga in först!"
+
+MsgId "Account"
+MsgStr "Konto"
+
+MsgId "Received bids"
+MsgStr "BUD"
+
+
+MsgId "My bids"
+MsgStr "BUDHISTORIK"
+
+MsgId "Settings"
+MsgStr "INSTÄLLNINGAR"
+
+MsgId "News"
+MsgStr "Konto"
+
+MsgId "My campaign networks"
+MsgStr "KAMPANJNÄTVERK"
+
+MsgId "My profile"
+MsgStr "Profil"
+
+MsgId "To contact"
+MsgStr "Att kontakta"
+
+MsgId "My ads"
+MsgStr "ANNONSER"
+
+MsgId "Register as seller"
+MsgStr "Säljare"
+
+MsgId "Register as buyer"
+MsgStr "Köpare"
+
+MsgId "My offers"
+MsgStr "ERBJUDANDEN"
+
+
+# RegisterForm
+MsgId "Role"
+MsgStr "Roll"
+
+MsgId "Seller"
+MsgStr "Säljare"
+
+MsgId "Buyer"
+MsgStr "Köpare"
+
+MsgId "FirstName"
+MsgStr "Förnamn"
+
+MsgId "SecondName"
+MsgStr "Efternamn"
+
+MsgId "Name of contact person"
+MsgStr "Kontaktperson"
+
+MsgId "Address of contact person"
+MsgStr "Adress"
+
+MsgId "Postal of contact person"
+MsgStr "Postnummer"
+
+MsgId "City of contact person"
+MsgStr "Ort"
+
+MsgId "Phone number to contact person"
+MsgStr "Telefon"
+
+MsgId "Email to contact person"
+MsgStr "Mejl"
+
+MsgId "D&B D-U-N-S number"
+MsgStr "Org.nr"
+
+MsgId "Company name"
+MsgStr "Företag"
+
+MsgId "Repeat password"
+MsgStr "Upprepa lösenord"
+
+MsgId "The passwords doesn't seem to match"
+MsgStr "Lösenorden överensstämmer inte"
+
+MsgId "Sign up!"
+MsgStr "Registrera"
+
+MsgId "Username already in use"
+MsgStr "Användarnamnet är upptaget"
+
+MsgId "Your company is already registered as a seller. If you want another account, please contact Oqtopus"
+MsgStr "Företaget är redan registrerat som säljare. Ta kontakt med Oqtopus för att få fler konton"
+
+MsgId "Thankyou! An email has now been sent to the address you specified. Follow the instructions therein to activate your account."
+MsgStr "Tack! Ett email har skickats till adressen du angav. Följ instruktionerna i det för att aktivera ditt konto."
+
+
+# EmailTextBox
+MsgId "Invalid e-mail address"
+MsgStr "Ogiltig mejladress"
+
+
+# OrganizationNumberTextBox
+MsgId "Invalid D&B D-U-N-S number"
+MsgStr "Ogiltigt organisationsnummer"
+
+
+# VerifyTextBox
+MsgId "Content doesn't match"
+MsgStr "Värdena överrensstämmer inte"
+
+MsgId "The object to verify against must be a QTextBox"
+MsgStr "Objektet som ska verifieras mot måste vara en QTextBox"
+
+
+# Math
+MsgId "Argument must be digits only"
+MsgStr "Argumentet får endast innehålla siffror"
+
+
+# Change Password
+MsgId "Old password"
+MsgStr "Gammalt lösenord"
+
+MsgId "New password"
+MsgStr "Nytt lösenord"
+
+MsgId "Verify new password"
+MsgStr "Bekräfta lösenord"
+
+
+# SearchForm
+MsgId "Search"
+MsgStr "Sök"
+
+MsgId "Choose %s first"
+MsgStr "Välj %s först"
+
+MsgId "Keyword"
+MsgStr "Nyckelord"
+
+MsgId "Greater than"
+MsgStr "Högre än"
+
+MsgId "Less than"
+MsgStr "Lägre än"
+
+MsgId "Reach"
+MsgStr "Räckvidd"
+
+MsgId "Requested price"
+MsgStr "Pris ex. moms (SEK)"
+
+MsgId "BuyPower"
+MsgStr "Köpkraft"
+
+MsgId "Target age"
+MsgStr "Åldersgrupp"
+
+MsgId "Target sex"
+MsgStr "Kön"
+
+MsgId "Area"
+MsgStr "Region"
+
+MsgId "Medium"
+MsgStr "Kategori"
+
+MsgId "Submedium"
+MsgStr "Subkategori"
+
+MsgId "Choose medium first"
+MsgStr "Välj medium först"
+
+MsgId "Target interest"
+MsgStr "Intressen"
+
+MsgId "Doesn't matter"
+MsgStr "-------------------------"
+
+MsgId "Send me an email when a new matching ad is registered"
+MsgStr "Maila mig när en ny matchande annons registreras"
+
+MsgId "Media selection"
+MsgStr "Medieurval"
+
+MsgId "Consumer selection"
+MsgStr "Konsumenturval"
+
+MsgId "Town"
+MsgStr "Ort"
+
+MsgId "City"
+MsgStr "Kommun"
+
+MsgId "State"
+MsgStr "Län"
+
+MsgId "Close"
+MsgStr "Stäng"
+
+MsgId "Simple"
+MsgStr "Enkel sökning"
+
+MsgId "Advanced"
+MsgStr "Avancerad sökning"
+
+
+# SearchComposite
+MsgId "First argument must be a Search object"
+MsgStr "Det första argumentet måste vara ett Search-objekt"
+
+MsgId "Seller name"
+MsgStr "Namn"
+
+MsgId "Yes"
+MsgStr "Ja"
+
+MsgId "No"
+MsgStr "Nej"
+
+MsgId "Search %d"
+MsgStr "Klicka och namnge"
+
+# SingleWordTextBox
+MsgId "Please enter a single word only"
+MsgStr "Du kan endast ange ett ord åt gången"
+
+MsgId "%d keywords out of %d selected"
+MsgStr "%d av %d nyckelord valda"
+
+
+# Ad
+MsgId "Argument must be a SearchParameterMode"
+MsgStr "Argumentet måste vara av typen SearchParameterMode"
+
+
+# ProfileForm
+MsgId "Prices"
+MsgStr "Annonser"
+
+MsgId "Deadline has to be before publication date"
+MsgStr "Måste vara tidigare än publiceringsdatum"
+
+MsgId "You're already a member of this network, or waiting to become one"
+MsgStr "Du är redan medlem av detta nätverk, eller har en obesvarad ansökan registrerad"
+
+MsgId "Discounts"
+MsgStr "Extraerbjudanden"
+
+MsgId "Deadline"
+MsgStr "Deadline"
+
+MsgId "Deadline for ad"
+MsgStr "Svara senast"
+
+MsgId "Select"
+MsgStr "VÄLJ"
+
+MsgId "Type"
+MsgStr "Kategori"
+
+MsgId "Target interests"
+MsgStr "Intressen"
+
+MsgId "Description"
+MsgStr "Beskrivning (400 tecken)"
+
+MsgId "Target ages"
+MsgStr "Åldersgrupp"
+
+MsgId "Target sex"
+MsgStr "Kön"
+
+MsgId "Males"
+MsgStr "Män"
+
+MsgId "Females"
+MsgStr "Kvinnor"
+
+MsgId "Both"
+MsgStr "Båda"
+
+MsgId "Edit"
+MsgStr "Ändra"
+
+MsgId "Ok"
+MsgStr "Spara"
+
+MsgId "Cancel"
+MsgStr "Stäng"
+
+MsgId "%d to %d years old"
+MsgStr "%d - %d"
+
+MsgId "Chosen"
+MsgStr "Valda"
+
+MsgId "Available"
+MsgStr "Tillgängliga"
+
+MsgId "Target education level"
+MsgStr "Högskoleutbildning"
+
+MsgId "Target salary"
+MsgStr "Lönekategori"
+
+MsgId "Target proffission"
+MsgStr "Yrke"
+
+MsgId "Create price"
+MsgStr "Ny annonsmall"
+
+MsgId "Create discount"
+MsgStr "Ny annons"
+
+MsgId "Education"
+MsgStr "Högskoleutbildning"
+
+MsgId "Salary"
+MsgStr "Lön"
+
+MsgId "Proffession"
+MsgStr "Yrke"
+
+MsgId "Areas"
+MsgStr "Regioner"
+
+MsgId "Mediatypes"
+MsgStr "Medietyper"
+
+MsgId "Name"
+MsgStr "Annons"
+
+MsgId "Place a bid"
+MsgStr "Köp"
+
+MsgId "Your bid is now saved"
+MsgStr "Budet är sparat"
+
+MsgId "Amount"
+MsgStr "Summa"
+
+MsgId "Comments"
+MsgStr "Kommentarer"
+
+MsgId "Keywords"
+MsgStr "Nyckelord (sökbart för köpare)"
+
+MsgId "ActualKeywords"
+MsgStr "Nyckelord"
+
+MsgId "Remove tagg"
+MsgStr "Ta bort"
+
+MsgId "Ad name"
+MsgStr "Annons"
+
+MsgId "Amount offered"
+MsgStr "Bud"
+
+MsgId "Relative discount"
+MsgStr "Rabatt"
+
+MsgId "Status"
+MsgStr "Status"
+
+MsgId "Accepted"
+MsgStr "Accepterat"
+
+MsgId "Denied"
+MsgStr "Avslått"
+
+MsgId "New"
+MsgStr "Ny"
+
+MsgId "Delete"
+MsgStr "X"
+
+MsgId "Campaign networks"
+MsgStr "Kampanjnätverk"
+
+MsgId "Network"
+MsgStr "Kampanjnätverk"
+
+
+MsgId "Apply"
+MsgStr "Ansök"
+
+MsgId "Your application is received"
+MsgStr "Din ansökan är registrerad"
+
+MsgId "Please specify sane values!"
+MsgStr "Var vänlig ange vettiga värden!"
+
+MsgId "You've already got a pending bid on this ad!"
+MsgStr "Du har redan ett obesvarat bud på denna annons!"
+
+MsgId "You're already a member of this  , or waiting to become one"
+MsgStr "Du är redan medlem i detta nätverk, eller har en obesvarad ansökan"
+
+
+# SellersBidsForm
+MsgId "Passed"
+MsgStr "Godkänd"
+
+MsgId "Call"
+MsgStr "Ring köparen"
+
+MsgId "Failed"
+MsgStr "Underkänd"
+
+MsgId "Unanswered bids"
+MsgStr "Obesvarade bud"
+
+MsgId "Answered bids"
+MsgStr "Besvarade bud"
+
+MsgId "Contacted buyer?"
+MsgStr "Kontaktat köpare?"
+
+MsgId "Answer comments"
+MsgStr "Svarskommentarer"
+
+MsgId "Answered"
+MsgStr "Besvarad"
+
+MsgId "Credit worthy"
+MsgStr "Kredit"
+
+MsgId "Oqtopus provision"
+MsgStr "Provision"
+
+MsgId "%s, %s days since last check"
+MsgStr "%s, %s dagar sedan"
+
+
+# BuyersBidsForm
+MsgId "Bids answered since last login"
+MsgStr "Bud besvarade sedan senaste inloggning"
+
+MsgId "Bids answered in the past"
+MsgStr "Äldre besvarade bud"
+
+MsgId "Pending bids"
+MsgStr "Obesvarade bud"
+
+MsgId "Expired bids"
+MsgStr "Förfallna bud"
+
+
+# SellersNewsForm
+MsgId "Newest unanswered bids"
+MsgStr "Obesvarade buden"
+
+# BuyersNewsForm
+MsgId "Newest bids answered since last login"
+MsgStr "Nyaste bud besvarade sedan senaste inloggning"
+
+
+# MultipleListBox
+MsgId "Choose first"
+MsgStr "Välj först"
+
+
+# ToContactForm
+MsgId "Person to contact"
+MsgStr "Mejla köpare"
+
+MsgId "Regarding"
+MsgStr "Angående"
+
+MsgId "Phone"
+MsgStr "Telefonnummer"
+
+MsgId "Mark as contacted"
+MsgStr "Markera som kontaktad"
+
+MsgId "Subject"
+MsgStr "Ämne"
+
+MsgId "Body"
+MsgStr "Meddelande"
+
+MsgId "Mark as contacted?"
+MsgStr "Markera som kontaktad?"
+
+MsgId "Send"
+MsgStr "Skicka"
+
+MsgId "Choose"
+MsgStr "VÄLJ"
+
+MsgId "The bid on $%d for ad %s from seller %s"
+MsgStr "Angående budet på %d SEK för annonsen \"%s\" från säljaren \"%s\""
+
+MsgId "Mail sent!"
+MsgStr "Mejlet skickades!"
+
+MsgId "Choose person to contact first"
+MsgStr "Välj mottagare"
+
+MsgId "Contact buyer"
+MsgStr "Kontakta"
+
+
+# SellersNetworksForm
+MsgId "Create network"
+MsgStr "NYTT NATVERK"
+
+MsgId "Accept?"
+MsgStr "Acceptera?"
+
+MsgId "Location"
+MsgStr "Stad"
+
+MsgId "Offer count"
+MsgStr "Antal bud"
+
+MsgId "Sum of all bids"
+MsgStr "Omsättning (SEK)"
+
+MsgId "NetworkDescription"
+MsgStr "Beskrivning"
+
+MsgId "Exclude"
+MsgStr "UTESLUT"
+
+
+
+MsgId "Applications"
+MsgStr "Ansökningar"
+
+MsgId "Users"
+MsgStr "Användare"
+
+MsgId "Network name"
+MsgStr "Kampanjnätverk"
+
+MsgId "Member count"
+MsgStr "Anslutningar"
+
+MsgId "User Company"
+MsgStr "Anslutna företag"
+
+# AdsForm
+MsgId "One of the values are missing or incorrect!"
+MsgStr "Minst ett av värdena saknas, eller är felaktigt"
+
+MsgId "Price"
+MsgStr "Pris ex. moms (SEK)"
+
+MsgId "Ad is available for"
+MsgStr "Gör tillgänglig för"
+
+MsgId "members of these campaign networks only"
+MsgStr "valda kampanjnätverk"
+
+MsgId "everyone but members of these campaign networks"
+MsgStr "alla utom valda kampanjnätverk"
+
+MsgId "everyone"
+MsgStr "alla"
+
+MsgId "Publication date"
+MsgStr "Publiceras"
+
+MsgId "Make discount"
+MsgStr "Erbjud denna annons"
+
+MsgId "Put back"
+MsgStr "Ta bort"
+
+# SellersSettingsForm
+MsgId "Your changes are saved"
+MsgStr "Dina ändringar är sparade"
+
+MsgId "Change"
+MsgStr "Ändra"
+
+MsgId "Reaset"
+MsgStr "Avbryt"
+
+
+MsgId "Mail me when someone..."
+MsgStr "Maila mig när någon..."
+
+MsgId "... applies to one of my networks"
+MsgStr "... ansöker till något av mina nätverk"
+
+MsgId "... bids on one of my ads"
+MsgStr "... bjuder på någon av mina annonser"
+
+MsgId "Your password is changed"
+MsgStr "Ditt lösenord är ändrat"
+
+
+# PressForm
+MsgId "Newsletter"
+MsgStr "Nyhetsbrev"
+
+MsgId "PMs"
+MsgStr "Pressmeddelanden"
+
+MsgId "Media coverage"
+MsgStr "Medianotiser"
+
+MsgId "Thankyou!"
+MsgStr "Tack!"
+
+MsgId "subscribe"
+MsgStr "Prenumerera"
+
+
+# AdEdit
+MsgId "Add"
+MsgStr "Lägg till"
+
+MsgId "Remove"
+MsgStr "Ta bort"
+
+
+# MultiLineTextBox
+MsgId "Maxmimum %d rows"
+MsgStr "Max %d rader"
+
+
+#ActivateForm
+MsgId "Wrong key"
+MsgStr "Felaktig aktiveringsnyckel"
+
+MsgId "Your account is now active! Please enter your credentials and press Ok to your right"
+MsgStr "Ditt konto är nu aktiverat! Logga in med dina uppgifter till höger"
+
+MsgId "Registration key"
+MsgStr "Aktiveringsnyckel"
+
+MsgId "Your account is already active"
+MsgStr "Ditt konto är redan aktivt"
+
+
+MsgId "Determinate"
+MsgStr "X"
+
+
+#JSConfirmAction
+MsgId "Are you sure?"
+MsgStr "Är du säker?"
+
+MsgId "Email"
+MsgStr "Mejl"
+
+#SellersRegisterForm
+MsgId "RegisterDescription"
+MsgStr "Beskriv publikationen"
+
+
+#BuyersNetworksForm
+MsgId "Sellers name"
+MsgStr "Säljare"
+
+MsgId "Networks name"
+MsgStr "Nätverkets namn"
+
+
+#QDateTimePicker
+MsgId "Invalid Date"
+MsgStr "Ogiltigt datum"
+
+MsgId "This date has already passed"
+MsgStr "Detta datum har redan passerat"
+
+
+#BuyersOffersForm
+MsgId "Go to profile"
+MsgStr "Gå till profil"
+
+
+#DemoForm
+MsgId "Home"
+MsgStr "Hem"
+
+
+#SellersNetworkForm
+MsgId "New campain"
+MsgStr "Nytt nätverk"
+
+#	BidsPanel
+MsgId "Offer"
+MsgStr "Lägg bud"

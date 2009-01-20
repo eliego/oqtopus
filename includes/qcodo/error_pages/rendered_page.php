@@ -1,0 +1,1 @@
+<?php echo str_replace("&lt/script&gt", "</script>", $_POST["strHtml"]); ?>
